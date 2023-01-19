@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements CreateBankDialog.
 
         FloatingActionButton fab = findViewById(R.id.fab);
         mRecyclerView = findViewById(R.id.recyclerView);
-        noBankFound = findViewById(R.id.noBankFound);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(linearLayoutManager);
